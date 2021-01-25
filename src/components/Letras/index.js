@@ -1,15 +1,19 @@
 import styled from "styled-components"
 
-export const Titulo = styled.h1`
+export const Texto = styled.h1`
 
 text-align:center;
 
 
 `
-Titulo.H1 = styled.h1`
+Texto.H1 = styled.h1`
 color:white;
 font-size:30px;
 `
-Titulo.H2 = styled.h2`
-    color:black;
+Texto.H2 = styled.h2`
+    color:white;
+`
+
+Texto.P=styled.p`
+    color:black;    
 `

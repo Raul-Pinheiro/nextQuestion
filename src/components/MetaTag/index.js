@@ -3,26 +3,21 @@ import db from "../../../db.json";
 
 
 export const Meta = () => (
+  
       <Head>
         <title key="title">{db.title}</title>
 
-        <meta
-          key="description"
-          name="description"
-          content={db.description}
-        />
-      
-        <meta
-          key="og:title"
-          name="og:title"
-          content={db.title}
-        />
+        <meta property="og:title" content="Home" key="title" />
+
+        <meta property="og:description" content="Bem vindo ao Next Quiz" key="title" />
+
+        <meta property="og:type" content="website"/>
       
       
-        <meta
-          key="og:image"
-          name="og:image"
-          content={db.img}
-        />
+      
+      
+        <meta property="og:url" content="https://next-question.raul-pinheiro.vercel.app/"/>
+        <meta property="og:image" content={db.img}/>
       </Head>
-  );
+  
+);
