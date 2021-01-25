@@ -1,0 +1,33 @@
+{
+    "img":"https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+    "title":"Next Question",
+    "description":"Perguntas aleatórias",
+    "questions":[
+        {
+            "image":"",
+            "title":"Pergunta 1",
+            "description":"Com quantos paus se faz uma canoa?",
+            "answer": 1,
+            "alternatives":[
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        }
+    
+    ],
+    "external":[""],
+    "theme":{
+        "colors":{
+            "primary":"#00695f",
+            "secondary":"#26a69a",
+            "mainBg":"#53c4f7",
+            "contrastText":"",
+            "erro":"#aa2e25",
+            "acerto":"#4caf50"
+        },
+        "borderRadius":"4px"
+    }
+
+}
