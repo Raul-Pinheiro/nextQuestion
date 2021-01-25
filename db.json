@@ -1,7 +1,7 @@
 {
     "img":"https://i.imgur.com/xi4baYK.jpg",
     "title":"Next Question",
-    "description":"Perguntas aleatórias",
+    "description":"Um Quiz com perguntas totalmente aleatórias",
     "questions":[
         {
             "image":"",

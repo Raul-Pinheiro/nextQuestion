@@ -5,7 +5,7 @@ import Footer from "../src/components/Footer"
 import GitHubCorner from "../src/components/GitHubCorner"
 import {Titulo} from "../src/components/Letras"
 import db from "../db.json"
-
+import MetaTag from "../src/components/MetaTag"
 
 
 
@@ -18,6 +18,7 @@ import db from "../db.json"
 export default function Home() {
   return (
     <QuizBackGround backgroundImage = {db.img}>
+      <MetaTag/>
       <GitHubCorner projectUrl="https://github.com/Raul-Pinheiro"/>
       <QuizContainer>
         <Titulo.H1>Next Question</Titulo.H1>
