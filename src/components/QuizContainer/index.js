@@ -11,5 +11,6 @@ export const QuizContainer = styled.div`
     padding:15px;
   }
   text-align:center;
+  color:white;
 
 `

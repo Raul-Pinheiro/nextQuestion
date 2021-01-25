@@ -3,6 +3,7 @@ import QuizBackGround from "../src/components/QuizBackGround"
 import {QuizContainer} from "../src/components/QuizContainer"
 import Footer from "../src/components/Footer"
 import GitHubCorner from "../src/components/GitHubCorner"
+import {Titulo} from "../src/components/Letras"
 import db from "../db.json"
 
 
@@ -19,12 +20,12 @@ export default function Home() {
     <QuizBackGround backgroundImage = {db.img}>
       <GitHubCorner projectUrl="https://github.com/Raul-Pinheiro"/>
       <QuizContainer>
-        <h1>Next Question Quiz</h1>
+        <Titulo.H1>Next Question</Titulo.H1>
      
 
       <Widget>
         <Widget.Header>
-          <h1>Teste seu conhecimento aleatório</h1>
+          <Titulo.H2>Teste seu conhecimento aleatório</Titulo.H2>
         </Widget.Header>
           
         <Widget.Content>

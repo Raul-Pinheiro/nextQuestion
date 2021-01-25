@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Widget = styled.div`
-  width:350px;
+  
   text-align:left;
   margin:24px auto;
   border: 1px solid ${({ theme }) => theme.colors.primary};
