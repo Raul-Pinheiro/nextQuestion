@@ -27,6 +27,9 @@ export default function Home() {
         <meta property="og:title" content={db.title} key="title" />
         <meta property="og:image" content={db.img} key="image" />
         <meta property="og:description" content={db.description} key="description" />
+        <meta property="og:url" content="https://next-question.vercel.app/" key="description" />
+
+
       </Head>
       <GitHubCorner projectUrl="https://github.com/Raul-Pinheiro" />
       <QuizContainer>
