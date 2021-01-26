@@ -21,15 +21,23 @@ const SVGWrapper = styled.svg`
     20%,60%{transform:rotate(-25deg)}
     40%,80%{transform:rotate(10deg)}
   }
-  @media (max-width:500px){
+  @media (max-width:500px) and (min-width:360px){
     &:hover .octo-arm{
       animation:none
     }
     & .octo-arm{
       animation:octocat-wave 560ms ease-in-out
-    }
+    }    
+    left: 280px;
+    
+    
+  }
+  @media (max-width:280px){
+    left: 200px;
   }
 `;
+
+
 
 // eslint-disable-next-line react/prop-types
 export default function GitHubCorner({ projectUrl }) {
