@@ -22,10 +22,12 @@
         "colors":{
             "primary":"#00695f",
             "secondary":"#26a69a",
+            "tird":"#5F9EA0",
             "mainBg":"rgba(135,206,250,0.9)",
             "contrastText":"",
             "erro":"#aa2e25",
-            "acerto":"#4caf50"
+            "acerto":"#4caf50",
+            "btnColor":"#2F4F4F"
         },
         "borderRadius":"4px"
     }

@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-
+import styled from 'styled-components';
 
 export const QuizContainer = styled.div`
   width:90%;
@@ -14,4 +13,4 @@ export const QuizContainer = styled.div`
   text-align:center;
   color:white;
 
-`
+`;
