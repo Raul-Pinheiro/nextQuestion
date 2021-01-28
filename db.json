@@ -1,33 +1,141 @@
 {
-    "img":"https://i.imgur.com/xi4baYK.jpg",
+    "bg":"https://i.imgur.com/xi4baYK.jpg",
     "title":"Next Question",
     "description":"Um Quiz com perguntas totalmente aleatórias",
     "questions":[
         {
-            "image":"",
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
             "title":"Pergunta 1",
-            "description":"Com quantos paus se faz uma canoa?",
+            "description":"Complete a frase: Ah cara, ela está tão..",
+            "answer": 0,
+            "alternatives":[
+                "na sua",
+                "acabada",
+                "linda",
+                "feliz"
+            ]
+        },
+
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 2",
+            "description":"Para que serve o diagrama de Moody?",
+            "answer": 2,
+            "alternatives":[
+                "Para descobrir como está seu humor.",
+                "Para ver qual personagem de Harry Potter você é.",
+                "Para descobrir o regime de escoamento de um fluido através de uma tubulação.",
+                "Para nada."
+            ]
+        },
+
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 3",
+            "description":"O que é uma operação de offloading?",
             "answer": 1,
             "alternatives":[
-                "Alternativa A",
-                "Alternativa B",
-                "Alternativa C",
-                "Alternativa D"
+                "Descarregamento de arquivos JSON na internet.",
+                "Transferência de petróleo entre embarcações.",
+                "É uma operação matemática.",
+                "É uma operação secreta do governo."
             ]
-        }
+        },
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 4",
+            "description":"O que é Iluvatar?",
+            "answer": 2,
+            "alternatives":[
+                "Um ser vivo?",
+                "Uma criatura mítica?",
+                "O criador da Terra Média.",
+                "Um Deus Grego."
+            ]
+        },
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 5",
+            "description":"Uma forma de identificar uma víbora?",
+            "answer": 2,
+            "alternatives":[
+                "Pelas presas.",
+                "Pelo ambiente em que vivem.",
+                "Pela fosseta loreal.",
+                "Pelo som que produzem."
+            ]
+        },
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 6",
+            "description":"Em que filme você viu um amblipígio?",
+            "answer": 1,
+            "alternatives":[
+                "Harry Potter e a Camara Secreta.",
+                "Harry Potter e o Cálice de Fogo.",
+                "Harry Potter e a Pedra Filosofal.",                
+                "Harry Potter e a Ordem da Fênix."
+            ]
+        },
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 7",
+            "description":"Quando podemos afirmar, com certeza, que uma cultura foi perdida?",
+            "answer": 0,
+            "alternatives":[
+                "Quando se perde o idioma.",
+                "Quando se perde as manifestações artísticas",
+                "Quando seu povo morre.",                
+                "Uma cultura nunca some."
+            ]
+        }, {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 8",
+            "description":"O que é um aronguejo?",
+            "answer": 2,
+            "alternatives":[
+                "Um crustáceo.",
+                "Um personagem do League of Legends",
+                "Um monstro do League of Legends.",                
+                "Um extra terrestre."
+            ]
+        },
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 9",
+            "description":"O que significa a sigla SCC?",
+            "answer": 0,
+            "alternatives":[
+                "Stress Corrosion Craking.",
+                "Sua Cachorro Correu",
+                "Sistema de Combate a Caça.",                
+                "Salve Cambada de Coiso."
+            ]
+        },     
+        {
+            "image":"https://i.imgur.com/fwsnFRj.jpg",
+            "title":"Pergunta 10",
+            "description":"Quem é Guenhwyvar",
+            "answer": 1,
+            "alternatives":[
+                "Personagem de World of WarCraft.",
+                "Pantera mágica de Drizzt",
+                "Um Deus Indiano",                
+                "Um Deus Indu."
+            ]
+        }       
     
     ],
     "external":[""],
     "theme":{
         "colors":{
             "primary":"#00695f",
-            "secondary":"#26a69a",
-            "tird":"#5F9EA0",
-            "mainBg":"rgba(135,206,250,0.9)",
-            "contrastText":"",
+            "secondary":"#26a69a",            
+            "mainBg":"rgba(110,150,200,0.9)",
+            "contrastText":"white",
             "erro":"#aa2e25",
-            "acerto":"#4caf50",
-            "btnColor":"#2F4F4F"
+            "acerto":"#4caf50"
+            
         },
         "borderRadius":"4px"
     }

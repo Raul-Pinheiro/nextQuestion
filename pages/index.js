@@ -15,26 +15,28 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import { Texto } from '../src/components/Letras';
 import db from '../db.json';
 import {Form} from '../src/components/Form'
+import QuizLogo from "../src/components/QuizLogo";
 
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
   return (
-
-    <QuizBackGround backgroundImage={db.img}>
+ 
+    <QuizBackGround backgroundImage={db.bg}>
       <Head>
         <title>{db.title}</title>
         <meta property="og:title" content={db.title} key="title" />
-        <meta property="og:image" content={db.img} key="image" />
+        <meta property="og:image" content={db.bg} key="image" />
         <meta property="og:description" content={db.description} key="description" />
         <meta property="og:url" content="https://next-question.vercel.app/" key="description" />
 
 
       </Head>
+      
       <GitHubCorner projectUrl="https://github.com/Raul-Pinheiro" />
       <QuizContainer>
         <Texto.H1>Next Question</Texto.H1>
-
+        <QuizLogo></QuizLogo>
         <Widget>
           <Widget.Header>
             <Texto.H2>Random Quiz</Texto.H2>
@@ -57,7 +59,7 @@ export default function Home() {
               />
 
               <Form.Button type="submit" disabled={name.length === 0}>
-                PLAY
+                 PLAY
               </Form.Button>
             </Form>
           </Widget.Content>

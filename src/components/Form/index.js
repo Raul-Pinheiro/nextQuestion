@@ -5,7 +5,7 @@ import db from '../../../db.json';
 // eslint-disable-next-line no-unused-vars
 export const Form = styled.form`
 
-    width:260px;
+    width:100%;
     height:fit-content;
     margin:15px auto;
     padding:5px;
@@ -18,7 +18,7 @@ Form.Input = styled.input`
 display:flex;
 flex-direction:column;
 padding:10px;
-width:200px;
+width:90%;
 height:30px;
 margin: 20px auto;
 outline:none;
@@ -36,7 +36,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-width:200px;
+width:90%;
 height:30px;
 margin: 20px auto;
 text-align:center;
@@ -47,7 +47,7 @@ color:white;
 outline:none;
 border:2px solid transparent;
 border-radius:5px;
-background-color:${db.theme.colors.btnColor};
+background-color:#2F4F4F;
 &:disabled{
     background-color:#B0C4DE;
     color:black;
