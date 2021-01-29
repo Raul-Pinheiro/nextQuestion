@@ -14,8 +14,9 @@ font-family: 'Lato', sans-serif;
 `;
 Texto.H2 = styled.h2`
     color:white;
-    text-align:center;
+    text-align:left;
     font-family: 'Lato', sans-serif;
+    
 `;
 
 Texto.P = styled.p`

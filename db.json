@@ -103,7 +103,7 @@
         {
             "image":"https://i.imgur.com/fwsnFRj.jpg",
             "title":"Pergunta 9",
-            "description":"O que significa a sigla SCC?",
+            "description":"O que significa a sigla SCC para petroleiros?",
             "answer": 0,
             "alternatives":[
                 "Stress Corrosion Craking.",
@@ -133,8 +133,8 @@
             "secondary":"#26a69a",            
             "mainBg":"rgba(110,150,200,0.9)",
             "contrastText":"white",
-            "erro":"#aa2e25",
-            "acerto":"#4caf50"
+            "erro":"red",
+            "acerto":"green"
             
         },
         "borderRadius":"4px"
