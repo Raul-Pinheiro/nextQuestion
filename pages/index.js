@@ -4,6 +4,7 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import {motion} from 'framer-motion';
 
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -36,8 +37,15 @@ export default function Home() {
       <GitHubCorner projectUrl="https://github.com/Raul-Pinheiro" />
       <QuizContainer>
         <Texto.H1>Next Question</Texto.H1>
-        <QuizLogo></QuizLogo>
-        <Widget>
+        
+        <Widget
+        as={motion.section}
+        variants={{show:{opacity:1, y:'0'}, hidden:{opacity:0,y:'100%'}}}
+        transition={{delay:0.5,duration:0.5}}
+        initial="hidden"
+        animate="show"
+        
+        >
           <Widget.Header>
             <Texto.H2>Random Quiz</Texto.H2>
           </Widget.Header>
@@ -59,18 +67,40 @@ export default function Home() {
               />
 
               <Form.Button type="submit" disabled={name.length === 0}>
-                 PLAY
+                 Bora {name}!
               </Form.Button>
             </Form>
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget     
+        as={motion.section}
+        variants={{show:{opacity:1, y:'0'}, hidden:{opacity:0,y:'100%'}}}
+        transition={{delay:0,duration:0.5}}
+        initial="hidden"
+        animate="show">
           <Widget.Header>
             <Texto.H2> Quiz da comunidade</Texto.H2>
           </Widget.Header>
           <Widget.Content>
             <Texto.P>Olá pessoal!</Texto.P>
+            <ul>
+              {db.external.map((link)=>{
+                  const textoDoLink = link
+                  .replace(/\//g,'')
+                  .replace('.vercel.app','')
+                  .replace(/\https:/,'')
+                  return (
+                 
+                    <li>
+                      <Widget.Topic href={link}>
+                        {textoDoLink}
+                      </Widget.Topic>
+                    </li>
+                  
+                  )
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />

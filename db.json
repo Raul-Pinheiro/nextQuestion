@@ -126,7 +126,7 @@
         }       
     
     ],
-    "external":[""],
+    "external":["https://aluraquiz-css.omariosouto.vercel.app/","https://quiz-imersao-react.savio-2-lopes.vercel.app/"],
     "theme":{
         "colors":{
             "primary":"#00695f",
